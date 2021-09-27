@@ -1,4 +1,20 @@
 <div>
   <h1>Celulares</h1>
-  <div>Lista de Celulares</div>
+  <div>
+    Lista de Celulares
+    <div>
+      <a [routerLink]="getUrl('apple')">
+        <input type="checkbox" class="checkbox-filter" />
+        <label> apple</label>
+      </a>
+      <a [routerLink]="getUrl('samsung')">
+        <input type="checkbox" class="checkbox-filter" />
+        <label> samsung</label>
+      </a>
+      <a [routerLink]="getUrl('lg')">
+        <input type="checkbox" class="checkbox-filter" />
+        <label>lg</label>
+      </a>
+    </div>
+  </div>
 </div>
